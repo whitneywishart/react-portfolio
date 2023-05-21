@@ -1,11 +1,12 @@
 import React from 'react';
 
 export default function Nav() {
-    const linkStyle = { border: '1px black', padding: '5px' };
-
+    
     return (
         <div>
-            Header content
+            <div className='name-h3'>Hello friends.</div>
+            <div className='name-h1'>Whitney</div>
+            <div className='name-h2'>Wishart</div>
         </div>
     );
 }

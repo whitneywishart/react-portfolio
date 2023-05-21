@@ -4,8 +4,11 @@
   box-sizing: border-box;
   background-color: #09121C;
   font-family: 'Quicksand', sans-serif;
-  padding: 3% 8% 0 5%;
   color: wheat;
+}
+
+body {
+  padding-left: 10%;
 }
 
 .portfolio-app {
@@ -20,13 +23,27 @@
 p {
   font-size: 18px;
   color: wheat;
-  letter-spacing: .05rem;
-  line-height: 1.75rem;
-  padding-bottom: 1rem;
+  letter-spacing: .07rem;
+  line-height: 2rem
 }
 
 h1 {
   font-size: 3em;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #e0e1dd;
+  font-weight: 100;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.left-rail {
+  margin-left: -9%;
+  border-bottom: 1px solid rgb(224, 225, 221, .5);
+  width: 20%;
+  /* margin: 8rem 0 2rem 0; */
 }
 
 /* Hero name styling */
@@ -41,13 +58,31 @@ h1 {
   font-size: 7rem;
   color: #778da9;
   font-weight: 100;
+  margin-top: -1.75%;
 
+}
+
+.name-h3 {
+  font-size: 1.25rem;
+  color: #e0e1dd;
+  font-weight: 200;
+  letter-spacing: .05rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #e0e1dd;
+  font-weight: 200;
 }
 
 h3 {
   margin: auto;
   color: rgb(66, 171, 231);
   font-size: 2em
+}
+
+a {
+  text-decoration: none;
 }
 
 .complete {
