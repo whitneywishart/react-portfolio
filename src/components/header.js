@@ -11,7 +11,7 @@ export default function Nav() {
                     <div className="name-h2">Wishart</div>
                 </div>
                 <div className="photo">
-                    <img src="../../public/wishart.png" alt="Whitney Wishart" />
+                    <img src="..././public/wishart.png" alt="Whitney Wishart" />
                 </div>
             </div>
         </div>
