@@ -15,7 +15,9 @@ export default function Nav() {
             >
                 <div style={linkStyle}>
                     <a href="#">Footer content</a>
+                
                 </div>
+                
             </section>
         </nav>
     );
