@@ -5,9 +5,7 @@ const AboutMe = () => {
     <div>
       <h2 className='left-rail'>About me</h2>
       <div>
-        <div className='name-h3'>Hello friends.</div>
-        <div className='name-h1'>Whitney</div>
-        <div className='name-h2'>Wishart</div>
+
         <p>
           Northwest native, full-stack web developer and digital content management generalist for high-visibility enterprise sites and digital marketing programs.
         </p>

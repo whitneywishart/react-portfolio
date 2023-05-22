@@ -5,6 +5,7 @@ import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 const App = () => {
@@ -22,6 +23,8 @@ const App = () => {
         return <Portfolio />;
       case 'Contact':
         return <Contact />;
+      case 'Resume':
+        return <Resume />;
       default:
         return <AboutMe />;
     }
@@ -29,10 +32,10 @@ const App = () => {
 
   return (
     <div>
-      <button onClick={() => handlePageChange('AboutMe')}>About me</button>
-      <button onClick={() => handlePageChange('Portfolio')}>Portfolio</button>
-      <button onClick={() => handlePageChange('Contact')}>Contact</button>
+      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Header />
       {renderPage()}
+      <Footer />
     </div>
   );
 };
