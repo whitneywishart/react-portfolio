@@ -123,3 +123,43 @@ a {
 .about {
   padding-right: 25%;
 }
+
+/* Work card flexbox */
+.card-box {
+  display: flex;
+  flex-wrap: wrap;
+  color: #778da9;
+  padding-top: 2rem;
+}
+
+.card-box-item {
+  margin: 0 2rem 2rem 0;
+  /* background: #0d1b2a; */
+  border: #778da9 1px solid;
+  border-radius: 20px;
+  padding: 1%;
+  height: 5%;
+}
+
+.card-box img {
+  /* width: 500px; */
+  opacity: 0.5;
+
+}
+
+.card-box img:hover {
+  opacity: 1;
+  transition: .05s ease;
+}
+
+.card-box h3 {
+  color: #e0e1dd;
+  font-weight: 400;
+  padding: 1% 1%;
+}
+
+.card-box p {
+  padding: 1% 1%;
+  color: wheat;
+  font-weight: 400;
+}
