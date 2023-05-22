@@ -8,24 +8,18 @@
 }
 
 body {
-  padding-left: 10%;
+  padding: 2% 10% 3% 15%;
 }
 
-.portfolio-app {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 100%;
-  min-height: 100vh;
-  background: #09121C;
-}
 
 p {
-  font-size: 18px;
+  font-size: 20px;
   color: wheat;
   letter-spacing: .07rem;
-  line-height: 2rem
+  line-height: 2rem;
+  margin-top: .2rem;
 }
+
 
 .navigation-buttons {
   display: flex;
@@ -38,7 +32,7 @@ p {
   border: none;
   font-size: 1.5rem;
   margin: 0rem 0rem 0rem 1rem;
-  
+
 }
 
 .navigation-buttons button.active {
@@ -51,6 +45,7 @@ p {
 .name-container {
   display: flex;
   align-items: center;
+  margin-top: -5%;
 }
 
 .name-text {
@@ -58,10 +53,9 @@ p {
 }
 
 .photo img {
-  max-width: 50%;
+  max-width: 40%;
   border-radius: 50%;
 }
-
 
 
 h1 {
@@ -76,22 +70,31 @@ h2 {
   padding-bottom: 1rem;
 }
 
-.left-rail {
-  margin-left: -9%;
-  border-bottom: 1px solid rgb(224, 225, 221, .5);
-  width: 20%;
+h3 {
+  margin: auto;
+  color: rgb(66, 171, 231);
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+h4 {
+  color: #8BC8EC;
+  margin: .2rem 0rem .2rem 0rem;
+  font-weight: 400;
+  letter-spacing: .03rem;
+  font-size: 1.2rem;
 }
 
 /* Hero name styling */
 .name-h1 {
-  font-size: 9rem;
+  font-size: 4rem;
   color: #e0e1dd;
   font-weight: 100;
 
 }
 
 .name-h2 {
-  font-size: 7rem;
+  font-size: 3rem;
   color: #778da9;
   font-weight: 100;
   margin-top: -1.75%;
@@ -106,18 +109,17 @@ h2 {
   padding-top: 2rem;
 }
 
-h3 {
-  font-size: 1.5rem;
-  color: #e0e1dd;
-  font-weight: 200;
+.left-rail {
+  margin-left: -9%;
+  border-bottom: 1px solid rgb(224, 225, 221, .5);
+  width: 20%;
 }
 
-h3 {
-  margin: auto;
-  color: rgb(66, 171, 231);
-  font-size: 2em
-}
 
 a {
   text-decoration: none;
+}
+
+.about {
+  padding-right: 25%;
 }
