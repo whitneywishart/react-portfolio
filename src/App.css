@@ -35,10 +35,46 @@ p {
 
 }
 
+@media all and (max-width: 900px) {
+  .navigation-buttons button {
+    margin: auto;
+    width: 40%;
+  }
+}
+
+
 .navigation-buttons button.active {
   background-color: #778da9;
   color: white;
   border-radius: 5px;
+}
+
+.navigation-buttons button:hover {
+  background-color: rgb(66, 171, 231);
+  border-radius: 5px;
+
+}
+
+/* Navigation adjust for variable viewports  */
+@media all and (max-width: 900px) {
+  .navigation-buttons {
+    justify-content: space-around;
+    padding-top: 5%;
+  }
+}
+
+
+@media all and (max-width: 600px) {
+  .navigation-buttons {
+    flex-direction: column;
+    padding-top: 5%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .nav-item {
+    margin: auto;
+  }
 }
 
 .name-container {
@@ -47,8 +83,10 @@ p {
   margin-top: -5%;
 }
 
-.name-text {
-  margin-right: 10px;
+@media all and (max-width: 1050px) {
+  .name-text {
+    margin-top: 10%;
+  }
 }
 
 .photo img {
@@ -106,10 +144,46 @@ h4 {
   padding-top: 2rem;
 }
 
+/* Hero name font size adjust for variable viewports */
+@media all and (max-width: 950px) {
+  .name-h1 {
+    font-size: 6rem;
+
+  }
+}
+
+
+@media all and (max-width: 500px) {
+  .name-h1 {
+    font-size: 500%;
+  }
+}
+
+@media all and (max-width: 950px) {
+  .name-h2 {
+    font-size: 4rem;
+
+  }
+}
+
+
+@media all and (max-width: 500px) {
+  .name-h2 {
+    font-size: 400%;
+
+  }
+}
+
 .left-rail {
   margin-left: -9%;
   border-bottom: 1px solid rgb(224, 225, 221, .5);
   width: 20%;
+}
+
+@media all and (max-width: 950px) {
+  .left-rail {
+    width: 40%;
+  }
 }
 
 
@@ -118,7 +192,7 @@ a {
 }
 
 .about {
-  padding-right: 25%;
+  padding: 3% 25% 0% 0%;
 }
 
 /* Work card flexbox */
@@ -139,6 +213,7 @@ a {
 
 .card-box img {
   opacity: 0.5;
+  width: 100%;
 
 }
 
@@ -157,4 +232,31 @@ a {
   padding: 1% 1%;
   color: wheat;
   font-weight: 400;
+}
+
+textarea {
+  width: 30%;
+  height: 250px;
+  padding: .5rem;
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+@media all and (max-width: 950px) {
+  textarea {
+    width: 90%;
+  }
+}
+
+input {
+  width: 30%;
+  padding: .5rem;
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+@media all and (max-width: 950px) {
+  input {
+    width: 90%;
+    padding: .5rem;
+    margin: 1rem 0rem 1rem 0rem;
+  }
 }

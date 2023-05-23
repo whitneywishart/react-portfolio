@@ -87,7 +87,6 @@ const ContactForm = () => {
         <input
           type="text"
           id="name"
-          style={{ width: '30%', padding: '.5rem', margin: '1rem 0rem 1rem 0rem' }}
           value={name}
           onChange={handleNameChange}
           onBlur={() => handleBlur('name')}
@@ -101,7 +100,6 @@ const ContactForm = () => {
         <input
           type="text"
           id="email"
-          style={{ width: '30%', padding: '.5rem', margin: '1rem 0rem 1rem 0rem' }}
           value={email}
           onChange={handleEmailChange}
           onBlur={() => handleBlur('email')}
@@ -114,7 +112,6 @@ const ContactForm = () => {
         <label htmlFor="message">Message:</label>
         <textarea
           id="message"
-          style={{ width: '30%', height: '250px', padding: '.5rem', margin: '1rem 0rem 1rem 0rem' }}
           placeholder="Please enter your message"
           value={message}
           onChange={handleMessageChange}
