@@ -37,8 +37,7 @@ p {
 
 .navigation-buttons button.active {
   background-color: #778da9;
-  color: black;
-  font-weight: bold;
+  color: white;
   border-radius: 5px;
 }
 

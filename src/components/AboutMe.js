@@ -13,7 +13,7 @@ const AboutMe = () => {
         <h3>Full-stack web developer</h3>
         <p> HTML, CSS, JavaScript, APIs/REST/JSON, MERN (MongoDB, Express.js, React.js, Node.js), MySQL, Heroku, Git</p>
 
-        <h3>Agile methodologies</h3>
+        <h3>Agile methodologies and Jira administrator</h3>
         <p>
           Jira project administrator, including advanced JQL queries, enterprise level project and task setup and management (KEY level and execution level), status tracking and dynamically updating boards/wallboards
         </p>
