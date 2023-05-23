@@ -55,6 +55,25 @@ p {
 
 }
 
+.download-button {
+  font-size: 1rem;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  background-color: #778da9;
+  width: 100px;
+  padding: .5rem;
+  margin: 1rem 0rem 1rem 0rem;
+  cursor: pointer;
+}
+
+
+button:hover {
+  background-color: rgb(66, 171, 231);
+  border-radius: 5px;
+
+}
+
 /* Navigation adjust for variable viewports  */
 @media all and (max-width: 900px) {
   .navigation-buttons {
