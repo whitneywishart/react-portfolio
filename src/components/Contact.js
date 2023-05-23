@@ -4,7 +4,7 @@ import ContactForm from './ContactForm';
 const App = () => {
   return (
     <div>
-      <h1>Contact Me</h1>
+      <h2 className='left-rail'>Contact</h2>
       <ContactForm />
     </div>
   );

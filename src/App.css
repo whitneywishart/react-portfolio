@@ -134,7 +134,6 @@ a {
 
 .card-box-item {
   margin: 0 2rem 2rem 0;
-  /* background: #0d1b2a; */
   border: #778da9 1px solid;
   border-radius: 20px;
   padding: 1%;
@@ -142,7 +141,6 @@ a {
 }
 
 .card-box img {
-  /* width: 500px; */
   opacity: 0.5;
 
 }
