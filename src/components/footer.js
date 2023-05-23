@@ -2,11 +2,10 @@ import React from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FaGithub, FaStackOverflow, FaLinkedin } from 'react-icons/fa';
 
-
 export default function Nav() {
     return (
-        <div style={{display: 'flex', flexDirection: 'column' }}>
-            <footer className="main-header-menu">
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <footer>
                 <section
                     style={{
                         display: 'flex',
@@ -28,7 +27,6 @@ export default function Nav() {
                     </div>
                 </section>
             </footer>
-
         </div>
     );
 }

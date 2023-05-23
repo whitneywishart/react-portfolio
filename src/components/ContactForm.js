@@ -123,7 +123,7 @@ const ContactForm = () => {
         {messageError && <p className="error">{messageError}</p>}
       </div>
 
-      <button type="submit" style={{ color: 'white', borderRadius: '5px', border: 'none', backgroundColor: '#778da9', width: '100px', padding: '.5rem', margin: '1rem 0rem 1rem 0rem' }}>Send</button>
+      <button type="submit" style={{ fontSize: '1rem', color: 'white', borderRadius: '5px', border: 'none', backgroundColor: '#778da9', width: '100px', padding: '.5rem', margin: '1rem 0rem 1rem 0rem' }}>Send</button>
     </form>
   );
 };

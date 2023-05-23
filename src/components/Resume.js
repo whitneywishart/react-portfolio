@@ -5,7 +5,7 @@ const Resume = () => {
   return (
     <div>
       <h2 className='left-rail'>Resume</h2>
-      <a href='/whitneywishartresume.pdf' target='blank'> <button style={{ borderRadius: '5px', color: 'white', border: 'none', backgroundColor: '#778da9', width: '100px', padding: '.5rem', margin: '1rem 0rem 1rem 0rem', cursor: 'pointer' }}>Download resume</button></a>
+      <a href='/whitneywishartresume.pdf' target='blank'> <button style={{ fontSize: '1rem', borderRadius: '5px', color: 'white', border: 'none', backgroundColor: '#778da9', width: '100px', padding: '.5rem', margin: '1rem 0rem 1rem 0rem', cursor: 'pointer' }}>Download resume</button></a>
       <h2>Highlighted skills</h2>
       <h3>Full-stack web developer</h3>
       <p> HTML, CSS, JavaScript, APIs/REST/JSON, MERN (MongoDB, Express.js, React.js, Node.js), MySQL, Heroku, Git</p>
