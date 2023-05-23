@@ -6,7 +6,7 @@ const About = () => {
       <h2 className='left-rail'>About</h2>
       <div className='about' style={{ display: 'flex', flexDirection: 'row' }}>
         <div className="photo">
-          <img src="/wishart.png" alt="Whitney Wishart" />
+          <img src="../../public/wishart.png" alt="Whitney Wishart" />
         </div>
         <p>
           Pacific northwest native, full-stack web developer and enterprise-level digital content generalist.
