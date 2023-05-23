@@ -8,7 +8,7 @@ const Navigation = ({ currentPage, handlePageChange }) => {
           onClick={() => handlePageChange('AboutMe')}
           className={currentPage === 'AboutMe' ? 'active' : ''}
         >
-          About me
+          About
         </button>
         <button
           onClick={() => handlePageChange('Portfolio')}

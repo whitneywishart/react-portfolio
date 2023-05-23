@@ -9,9 +9,7 @@ export default function Nav() {
           <div className="name-h1">Whitney</div>
           <div className="name-h2">Wishart</div>
         </div>
-        <div className="photo">
-          <img src="/wishart.png" alt="Whitney Wishart" />
-        </div>
+
       </div>
     </div>
   );

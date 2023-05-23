@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
     <div>
       <div>
-        <h2 className="left-rail">Work</h2>
+        <h2 className="left-rail">Portfolio</h2>
       </div>
       <div className="card-box">
         <div className="card-box-item">
@@ -15,7 +15,7 @@ const Portfolio = () => {
             href="https://cucumber-or-pickle.herokuapp.com/" target='blank'>View Heroku deployment</a></p>
 
           <a href="https://cucumber-or-pickle.herokuapp.com/" target='blank'>
-            <div><img src="/cucumber.png" /></div>
+            <div><img src="/cucumber.png" alt='Screenshot' /></div>
           </a>
 
         </div>
@@ -25,34 +25,34 @@ const Portfolio = () => {
           <h3><small>Server-side API</small></h3>
           <p><a href="https://github.com/whitneywishart/project-one-lyrics-legend" target='blank'>View repo</a> | <a href="https://whitneywishart.github.io/project-one-lyrics-legend/" target='blank'>View GitHub deployment</a></p>
           <a href="https://whitneywishart.github.io/project-one-lyrics-legend/" target='blank'>
-            <div><img src="/lyrics.png" /></div>
+            <div><img src="/lyrics.png" alt='Screenshot' /></div>
           </a>
 
         </div>
 
         <div className="card-box-item">
-          <a href="#" target='blank'>
+          <a href="/" target='blank'>
             <h3>Application three</h3>
             <p>In development</p>
             <div><img src="/fpo-screenshot.png" alt="Application placeholder" /></div>
           </a>
         </div>
         <div className="card-box-item">
-          <a href="#" target='blank'>
+          <a href="/" target='blank'>
             <h3>Application four</h3>
             <p>In development</p>
             <div><img src="/fpo-screenshot.png" alt="Application placeholder" /></div>
           </a>
         </div>
         <div className="card-box-item">
-          <a href="#" target='blank'>
+          <a href="/" target='blank'>
             <h3>Application five</h3>
             <p>In development</p>
             <div><img src="/fpo-screenshot.png" alt="Application placeholder" /></div>
           </a>
         </div>
         <div className="card-box-item">
-          <a href="#" target='blank'>
+          <a href="/" target='blank'>
             <h3>Application six</h3>
             <p>In development</p>
             <div><img src="/fpo-screenshot.png" alt="Application placeholder" /></div>
