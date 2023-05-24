@@ -15,7 +15,7 @@ const Portfolio = () => {
             href="https://cucumber-or-pickle.herokuapp.com/" target='blank'>View Heroku deployment</a></p>
 
           <a href="https://cucumber-or-pickle.herokuapp.com/" target='blank'>
-            <div><img src='../../public/cucumber.png' alt='Screenshot' /></div>
+            <div><img src="../../public/cucumber.png" alt='Screenshot' /></div>
           </a>
 
         </div>
