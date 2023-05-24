@@ -14,9 +14,9 @@ A professional portfolio site built with React.
 <br><br>
 
 ## GitHub deployment
-https://whitneywishart.github.io/react-portfolio/
+https://whitneywishart.github.io/portfolio/
 <br><br>
 
 ## Screenshot
-<img src="./public/screenshot.png" width="800">
+<img src="./src/components/screenshot.png" width="800">
 
