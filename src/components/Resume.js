@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from "./whitneywishartresume.pdf"
 
 
 const Resume = () => {
@@ -6,7 +7,7 @@ const Resume = () => {
     <div>
       <h2 className='left-rail'>Resume</h2>
       <div>
-      <a href='../../public/whitneywishartresume.pdf' target='blank'> <button className='download-button'>Download resume</button></a></div>
+        <a href={resume} target='blank'> <button className='download-button'>Download resume</button></a></div>
       <h2>Highlighted skills</h2>
       <h3>Full-stack web developer</h3>
       <p> HTML, CSS, JavaScript, APIs/REST/JSON, MERN (MongoDB, Express.js, React.js, Node.js), MySQL, Heroku, Git</p>
