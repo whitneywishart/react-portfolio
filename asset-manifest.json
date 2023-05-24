@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.5495643c.css",
+    "main.js": "/portfolio/static/js/main.babb75ed.js",
+    "static/media/whitneywishartresume.pdf": "/portfolio/static/media/whitneywishartresume.3e20eb0564afba0b941e.pdf",
+    "static/media/wishart.png": "/portfolio/static/media/wishart.ea54d7944cbbafb19d1e.png",
+    "static/media/lyrics.png": "/portfolio/static/media/lyrics.c57b2aba59941b99abd8.png",
+    "static/media/cucumber.png": "/portfolio/static/media/cucumber.0e3acf6d548485357933.png",
+    "index.html": "/portfolio/index.html",
+    "main.5495643c.css.map": "/portfolio/static/css/main.5495643c.css.map",
+    "main.babb75ed.js.map": "/portfolio/static/js/main.babb75ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5495643c.css",
+    "static/js/main.babb75ed.js"
+  ]
+}
